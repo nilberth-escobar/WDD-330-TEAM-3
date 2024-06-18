@@ -8,6 +8,7 @@ function addProductToCart(product) {
   if (!Array.isArray(cart)) {
     cart = [];
   }
+  /* console.log(cart); */
   cart.push(product);
   setLocalStorage("so-cart", cart);
 }
